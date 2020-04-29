@@ -65,24 +65,24 @@ ul {
 
 
 .list-inline li {
-    display: inline;
-    padding: 10px;
+  display: inline;
+  padding: 10px;
 }
 
 .btn-blue {
-    background-color: orange;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
-  }
+  background-color: orange;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
 
-  .btn-blue:hover {
-     background-color: #FFC720;
-  }
+.btn-blue:hover {
+  background-color: #FFC720;
+}
 
 #introduction p {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 40px;
+}
 
 .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
@@ -98,13 +98,13 @@ ul {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-  }
+}
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
-  }
+}
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
