@@ -41,6 +41,7 @@ ul {
 
 .img-circle {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .container {
@@ -58,6 +59,11 @@ ul {
     color: #FFC720;
 }
 
+.list-inline i:hover {
+  background-color: rgb(255,199,32,0.2);
+}
+
+
 .list-inline li {
     display: inline;
     padding: 10px;
@@ -70,11 +76,25 @@ ul {
     border-radius: 4px;
   }
 
+  .btn-blue:hover {
+     background-color: #FFC720;
+  }
+
 #introduction p {
     margin-bottom: 40px;
   }
 
-  @media (max-width: 960px) {
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+.rainbow-text:hover {
+  background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet); -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
